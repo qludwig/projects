@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2015, 3:46:19 PM
+    Author     : Suzanne Ludwig
+*/
+
+body {
+    background: #eee;
+    font-family: "Share Tech Mono", monospace;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+#totalDiv, #changeReturnDiv {
+    background: #000;
+    color: #00E600;
+    text-shadow: 0 0 25px #008000;
+    text-align: right;
+    
+    border-radius: 5px;
+}
+
+#totalDiv {
+    height: 200px;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 6em;
+}
+
+#totalDiv p {
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+/*CHANGE RETURN */
+
+#changeReturnSection {
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+#change-return-button {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 1.5em;
+}
+
+#changeReturnDiv {
+    height: 75px;
+    width: 60%;
+    margin: 20px auto;
+    font-size: 3em;
+}
+
+#changeReturnDiv p {
+    padding-top: 8px;
+    padding-right: 15px;
+}
+
+/* COIN BUTTONS */
+
+.coin-button {
+    background: #00E600;
+    color: #FFF;
+    border: 2px solid #008000;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.7em;
+    padding-top: 13px;
+    box-shadow: 3px 3px 5px #222;
+}
+
+.coin-button:hover {
+    background: lime;
+    cursor: pointer;
+}
+
+.coin-button:active {
+    color: #3e8f3e;
+    background: #1F5D1F;
+    box-shadow: none;
+    border: 2px solid #1F5D1F;
+}
+
+
+/* ITEMS */
+
+.item-container {
+    height: 230px;
+}
+
+.item {
+    background: #000;
+    margin: 15px 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.item-name {
+    background: #00E600;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.item-cost {
+    background: #008000;
+    padding: 7px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.item-inventory {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #00E600;
+    padding-top: 5px;
+    float: left;
+}
+
+.buy-button {
+    margin-right: 0;
+}
+
+/* SUCCESS DIV */
+
+.success-div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0,128,0,0.9);
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.success-p {
+    font-size: 4em;
+}
+
+.embiggen {
+    font-size: 5em;
+}
