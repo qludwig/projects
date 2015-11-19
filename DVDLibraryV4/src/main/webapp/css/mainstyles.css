@@ -1,0 +1,26 @@
+* {
+    font-family: "Ek Mukta";
+    font-weight: 400;
+}
+
+body {
+    background-color: #269abc;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.warning {
+    color: red;
+}
+
+footer hr {
+    width: 90%;
+}
+
+footer p {
+    text-align: center;
+}
